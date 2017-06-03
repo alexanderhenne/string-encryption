@@ -1,0 +1,10 @@
+[package]
+name = "string_encryption"
+version = "0.1.0"
+authors = ["UniquePassive"]
+
+[dependencies.string_encryption_plugin]
+path = "string-encryption-plugin"
+
+[dependencies.string_decryption]
+path = "string-decryption"
