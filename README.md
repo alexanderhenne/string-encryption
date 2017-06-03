@@ -37,7 +37,8 @@ Now you are free to use the "e" macro:
 
 ```rust
 fn main() {
-    let string = e!("Hello, world!");
-    println!("{} {}", string, "blah"); // Hello world!
+    let string = e!("Hello, world!"); // encrypted
+    let string2 = "Bye world!"; // not encrypted
+    println!("{} {}", string, string2); // Hello world! Bye world!
 }
 ```
