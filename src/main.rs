@@ -17,8 +17,8 @@
 extern crate string_decryption;
 
 /*
-    The injected macro calls the decryption method "d",
-    so lets use that method, so the macro can find it.
+    The injected macro calls the decryption function
+    "d", so lets use it, so that the macro can find it.
 */
 use string_decryption::d;
 
